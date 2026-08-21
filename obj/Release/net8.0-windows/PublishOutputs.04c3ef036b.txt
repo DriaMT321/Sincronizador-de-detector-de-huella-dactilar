@@ -1,0 +1,16 @@
+C:\Users\Pc\Downloads\borrar\publish\AsistenciaSync.exe
+C:\Users\Pc\Downloads\borrar\publish\LOGO.png
+C:\Users\Pc\Downloads\borrar\publish\LOGO.ico
+C:\Users\Pc\Downloads\borrar\publish\AsistenciaSync.dll
+C:\Users\Pc\Downloads\borrar\publish\AsistenciaSync.deps.json
+C:\Users\Pc\Downloads\borrar\publish\AsistenciaSync.runtimeconfig.json
+C:\Users\Pc\Downloads\borrar\publish\AsistenciaSync.pdb
+C:\Users\Pc\Downloads\borrar\publish\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\freebsd\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\illumos\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\ios\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\linux\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\osx\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\solaris\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\tvos\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Pc\Downloads\borrar\publish\runtimes\win\lib\net8.0\System.Data.Odbc.dll

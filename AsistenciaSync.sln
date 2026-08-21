@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsistenciaSync", "AsistenciaSync.csproj", "{87F540A6-061B-EF72-CD70-59C36C50256C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F540A6-061B-EF72-CD70-59C36C50256C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F540A6-061B-EF72-CD70-59C36C50256C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F540A6-061B-EF72-CD70-59C36C50256C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F540A6-061B-EF72-CD70-59C36C50256C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {884B4BD0-A8E7-4E73-B1D0-0DF0BB630AD9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.exe
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\LOGO.png
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\LOGO.ico
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.dll
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.deps.json
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.runtimeconfig.json
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.pdb
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\System.Data.Odbc.dll
