@@ -36,7 +36,7 @@ internal sealed class MainForm : Form
         var subtitle = new Label { Text = "Control de asistencia · iClock 680 · archivos CSV", AutoSize = true, Location = new Point(34, 78), ForeColor = Color.DimGray };
         var monthStart = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
         var monthLabel = new Label { Text = $"Periodo del reporte: {monthStart.ToString("MMMM yyyy", CultureInfo.GetCultureInfo("es-ES"))} (del {monthStart:dd/MM} al {DateTime.Today:dd/MM})", AutoSize = true, Location = new Point(34, 120), ForeColor = Color.FromArgb(70, 80, 95) };
-        var report = MakeButton("Ver Reporte", Color.FromArgb(35, 91, 151));
+        var report = MakeButton("Hacer Reporte", Color.FromArgb(35, 91, 151));
         report.Location = new Point(30, 165); report.Width = 330; report.Height = 52;
         report.Click += async (_, _) =>
         {
