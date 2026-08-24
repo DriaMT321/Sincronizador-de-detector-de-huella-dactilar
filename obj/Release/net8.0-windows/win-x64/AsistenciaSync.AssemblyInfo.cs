@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsistenciaSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a1206eb9ec0020d45b44f254c52826146730f97")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsistenciaSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsistenciaSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,7 @@
 {
-  "Server": "DESKTOP-3Q2MHNB",
-  "Database": "Asistencias",
   "DeviceIp": "192.168.0.201",
   "DevicePort": 4370,
-  "SqlAuthentication": false,
-  "SqlUser": "",
-  "SqlPassword": "",
+  "CsvFolder": "C:\\Users\\Pc\\Downloads\\nibol",
   "EntryTime": "08:30:00",
   "ExitTime": "17:00:00",
   "ReportFrom": "2026-08-17T00:00:00",

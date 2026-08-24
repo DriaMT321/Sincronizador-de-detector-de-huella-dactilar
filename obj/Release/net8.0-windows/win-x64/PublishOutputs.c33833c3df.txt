@@ -5,4 +5,3 @@ C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaS
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.deps.json
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.runtimeconfig.json
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\AsistenciaSync.pdb
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\publish\System.Data.Odbc.dll

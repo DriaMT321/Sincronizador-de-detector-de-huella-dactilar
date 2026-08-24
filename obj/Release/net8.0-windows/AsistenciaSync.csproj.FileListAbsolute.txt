@@ -2,22 +2,11 @@ C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.AssemblyInfoInputs.cache
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.AssemblyInfo.cs
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.csproj.CoreCompileInputs.cache
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.csproj.AssemblyReference.cache
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\AsistenciaSync.exe
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\AsistenciaSync.deps.json
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\AsistenciaSync.runtimeconfig.json
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\AsistenciaSync.dll
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\AsistenciaSync.pdb
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\freebsd\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\illumos\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\ios\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\linux\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\osx\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\solaris\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\tvos\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\runtimes\win\lib\net8.0\System.Data.Odbc.dll
-C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\Asistenc.61723766.Up2Date
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.dll
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\refint\AsistenciaSync.dll
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.pdb
@@ -27,3 +16,4 @@ C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\bin\Release\net8.0-windows\LOGO.ico
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.MainForm.resources
 C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.csproj.GenerateResource.cache
+C:\Users\Pc\Documents\ChatGPT\Excel\sincronizador-asistencia\obj\Release\net8.0-windows\AsistenciaSync.sourcelink.json
