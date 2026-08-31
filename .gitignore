@@ -1,6 +1,19 @@
-bin/
-obj/
+# Salida de compilación
+[Bb]in/
+[Oo]bj/
 publish/
-*.user
-*.config.json
+installer-output/
+
+# Visual Studio
 .vs/
+*.user
+
+# Pruebas
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.received.*
+
+# Configuración local en tiempo de ejecución (contiene IP del dispositivo y rutas locales)
+asistencias.config.json
+*.config.json

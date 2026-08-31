@@ -1,0 +1,34 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[*.{csproj,props,targets}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.cs]
+# Estilo .NET (guía, no se fuerza reformateo del estilo compacto del autor)
+dotnet_sort_system_directives_first = true
+csharp_using_directive_placement = outside_namespace:suggestion
+csharp_style_namespace_declarations = file_scoped:suggestion
+dotnet_style_qualification_for_field = false:suggestion
+dotnet_style_qualification_for_property = false:suggestion
+dotnet_style_prefer_conditional_expression_over_assignment = false:silent
+dotnet_style_prefer_conditional_expression_over_return = false:silent
+
+# Analizadores: solo defectos reales, como sugerencia
+dotnet_diagnostic.CA1063.severity = suggestion   # Dispose implementado correctamente
+dotnet_diagnostic.CA2000.severity = suggestion   # Objetos IDisposable liberados
+dotnet_diagnostic.CA1816.severity = suggestion   # GC.SuppressFinalize
+dotnet_diagnostic.CA1305.severity = suggestion   # IFormatProvider explícito

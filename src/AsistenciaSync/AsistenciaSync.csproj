@@ -3,12 +3,22 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>LOGO.ico</ApplicationIcon>
+    <ApplicationIcon>Assets\LOGO.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="LOGO.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
-    <Content Include="LOGO.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <ProjectReference Include="..\AsistenciaSync.Core\AsistenciaSync.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Los formularios se construyen 100% por código (sin diseñador); los .resx que genera
+         Visual Studio al abrirlos son cruft y provocan colisiones de nombre con las clases parciales. -->
+    <EmbeddedResource Remove="UI\*.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Link keeps these at the output root (AppContext.BaseDirectory), where the forms load LOGO.ico from. -->
+    <Content Include="Assets\LOGO.png" Link="LOGO.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Assets\LOGO.ico" Link="LOGO.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\ReportForm.resx" />
   </ItemGroup>
 </Project>

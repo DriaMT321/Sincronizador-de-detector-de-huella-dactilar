@@ -1,0 +1,20 @@
+# Normalización de fin de línea
+* text=auto eol=crlf
+
+*.cs      text diff=csharp
+*.csproj  text
+*.sln     text eol=crlf
+*.props   text
+*.targets text
+*.json    text
+*.yml     text
+*.yaml    text
+*.md      text
+*.csv     text eol=crlf
+
+# Binarios
+*.png binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.pdb binary

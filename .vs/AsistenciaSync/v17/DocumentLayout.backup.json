@@ -3,44 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\services\\zkdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\services\\zkdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\services\\statuscatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\services\\statuscatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\models\\dailyincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\models\\dailyincident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53FD8E9E-534E-47C4-A7E3-BC7F2B573163}|tests\\AsistenciaSync.Tests\\AsistenciaSync.Tests.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\tests\\asistenciasync.tests\\reporting\\assignmarkstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53FD8E9E-534E-47C4-A7E3-BC7F2B573163}|tests\\AsistenciaSync.Tests\\AsistenciaSync.Tests.csproj|solutionrelative:tests\\asistenciasync.tests\\reporting\\assignmarkstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\services\\csvstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\services\\csvstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\models\\workdaytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\models\\workdaytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\models\\holiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\configuration\\settingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\configuration\\settingsstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\dailyincidentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\dailyincidentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\models\\attendanceconfigurationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\models\\attendanceconfigurationstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\models\\worksegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\models\\worksegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\models\\customizationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\models\\customizationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\csvstore.configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\csvstore.configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\csvstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\csvstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\csvstore.incidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\csvstore.incidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\reportinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\reportinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\reportservice.csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\reportservice.csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\reportservice.scheduling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\reportservice.scheduling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync.core\\services\\zkdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DC973-4EB8-42ED-81C0-E509570FECD3}|src\\AsistenciaSync.Core\\AsistenciaSync.Core.csproj|solutionrelative:src\\asistenciasync.core\\services\\zkdeviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\customizationform.workdaytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\customizationform.workdaytypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\reportroweditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\reportroweditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|c:\\users\\pc\\documents\\chatgpt\\excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\createemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\createemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\asistenciasync\\ui\\createemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87F540A6-061B-EF72-CD70-59C36C50256C}|src\\AsistenciaSync\\AsistenciaSync.csproj|solutionrelative:src\\asistenciasync\\ui\\createemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\publish\\AsistenciaSync.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -62,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,137 +114,275 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatusCatalog.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\StatusCatalog.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Services\\StatusCatalog.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\StatusCatalog.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Services\\StatusCatalog.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AssignMarksTests.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\tests\\AsistenciaSync.Tests\\Reporting\\AssignMarksTests.cs",
+              "RelativeDocumentMoniker": "tests\\AsistenciaSync.Tests\\Reporting\\AssignMarksTests.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\tests\\AsistenciaSync.Tests\\Reporting\\AssignMarksTests.cs",
+              "RelativeToolTip": "tests\\AsistenciaSync.Tests\\Reporting\\AssignMarksTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T19:22:48.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomizationModels.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\CustomizationModels.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Models\\CustomizationModels.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\CustomizationModels.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Models\\CustomizationModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T19:22:33.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AttendanceRecord.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\AttendanceRecord.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Models\\AttendanceRecord.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\AttendanceRecord.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Models\\AttendanceRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T18:18:17.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AttendanceConfigurationStore.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\AttendanceConfigurationStore.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Models\\AttendanceConfigurationStore.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Models\\AttendanceConfigurationStore.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Models\\AttendanceConfigurationStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T18:17:59.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CsvStore.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\CsvStore.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Services\\CsvStore.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\CsvStore.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Services\\CsvStore.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAADwv30AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T16:05:05.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SettingsStore.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Configuration\\SettingsStore.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Configuration\\SettingsStore.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Configuration\\SettingsStore.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Configuration\\SettingsStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:54:45.267Z",
+              "WhenOpened": "2026-08-31T17:18:31.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Configuration\\AppSettings.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Configuration\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Configuration\\AppSettings.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Configuration\\AppSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Holiday.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\Holiday.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Models\\Holiday.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\Holiday.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Models\\Holiday.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:30:03.099Z",
+              "WhenOpened": "2026-08-31T17:18:25.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ZkDeviceClient.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\ZkDeviceClient.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Services\\ZkDeviceClient.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\ZkDeviceClient.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Services\\ZkDeviceClient.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAA6wIsAAABAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WorkdayType.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\WorkdayType.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Models\\WorkdayType.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\WorkdayType.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Models\\WorkdayType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T14:30:11.111Z",
+              "WhenOpened": "2026-08-31T17:18:24.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkSegment.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\WorkSegment.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Models\\WorkSegment.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\WorkSegment.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Models\\WorkSegment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:22.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CsvStore.Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.Configuration.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\CsvStore.Configuration.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.Configuration.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\CsvStore.Configuration.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:18.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CsvStore.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\CsvStore.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\CsvStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:17.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\MainForm.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\UI\\MainForm.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwDAAAAANAAAAAAAAAA==",
+              "Title": "CsvStore.Incidents.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.Incidents.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\CsvStore.Incidents.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\CsvStore.Incidents.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\CsvStore.Incidents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T15:07:48.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "src\\AsistenciaSync\\Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\Services\\ReportService.cs",
-              "RelativeToolTip": "src\\AsistenciaSync\\Services\\ReportService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T18:18:01.629Z",
+              "WhenOpened": "2026-08-31T17:18:16.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "ReportInputs.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportInputs.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\ReportInputs.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportInputs.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\ReportInputs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:15.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "ViewState": "AgIAAJ8BAAAAAAAAAAAlwKYBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:02:14.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DailyIncident.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\DailyIncident.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Models\\DailyIncident.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Models\\DailyIncident.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Models\\DailyIncident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:46:00.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DailyIncidentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\DailyIncidentForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\DailyIncidentForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\DailyIncidentForm.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\DailyIncidentForm.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAswAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T18:46:29.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:14.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportService.Csv.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.Csv.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\ReportService.Csv.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.Csv.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\ReportService.Csv.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:12.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReportService.Scheduling.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.Scheduling.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\ReportService.Scheduling.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ReportService.Scheduling.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\ReportService.Scheduling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:11.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ZkDeviceClient.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ZkDeviceClient.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync.Core\\Services\\ZkDeviceClient.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync.Core\\Services\\ZkDeviceClient.cs",
+              "RelativeToolTip": "src\\AsistenciaSync.Core\\Services\\ZkDeviceClient.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T17:18:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomizationForm.WorkdayTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CustomizationForm.WorkdayTypes.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\CustomizationForm.WorkdayTypes.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CustomizationForm.WorkdayTypes.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\CustomizationForm.WorkdayTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T16:29:38.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\ReportForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:02:10.509Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportRowEditForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportRowEditForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\ReportRowEditForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\ReportRowEditForm.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\ReportRowEditForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:02:45.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\MainForm.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\MainForm.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T15:07:48.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateEmployeeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T13:02:03.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateEmployeeForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "RelativeDocumentMoniker": "src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs",
+              "ToolTip": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "src\\AsistenciaSync\\UI\\CreateEmployeeForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:52:59.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AsistenciaSync.exe",
               "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\publish\\AsistenciaSync.exe",
               "RelativeDocumentMoniker": "publish\\AsistenciaSync.exe",
@@ -211,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "AsistenciaSync.pdb",
               "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\publish\\AsistenciaSync.pdb",
               "RelativeDocumentMoniker": "publish\\AsistenciaSync.pdb",
@@ -222,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "AsistenciaSync.runtimeconfig.json",
               "DocumentMoniker": "C:\\Users\\Pc\\Documents\\ChatGPT\\Excel\\sincronizador-asistencia\\publish\\AsistenciaSync.runtimeconfig.json",
               "RelativeDocumentMoniker": "publish\\AsistenciaSync.runtimeconfig.json",

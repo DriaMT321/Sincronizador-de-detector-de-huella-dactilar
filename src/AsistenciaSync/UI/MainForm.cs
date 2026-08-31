@@ -24,23 +24,24 @@ internal sealed class MainForm : Form
         ShowHome();
         Shown += async (_, _) =>
         {
-            if (settings.IsConfigured)
-                await SynchronizeAutomatically();
+            if (!settings.IsConfigured) BeginInvoke(new Action(ShowSystemConfiguration));
+            else await SynchronizeAutomatically();
         };
     }
 
     void ShowHome()
     {
         content.Controls.Clear();
-        var title = new Label { Text = "AsistenciaSync", Font = new Font("Segoe UI", 26, FontStyle.Bold), AutoSize = true, Location = new Point(30, 28) };
-        var subtitle = new Label { Text = "Control de asistencia · iClock 680 · archivos CSV", AutoSize = true, Location = new Point(34, 78), ForeColor = Color.DimGray };
+        var card = new Panel { Width = 500, Height = 520, BackColor = Color.White, Location = new Point((content.ClientSize.Width - 500) / 2, 18), Padding = new Padding(34) }; card.Controls.Add(new Panel { Dock = DockStyle.Top, Height = 5, BackColor = Color.FromArgb(35, 91, 151) });
+        var title = new Label { Text = "AsistenciaSync", Font = new Font("Segoe UI", 26, FontStyle.Bold), AutoSize = true, ForeColor = Color.FromArgb(24, 57, 92), Location = new Point(34, 32) };
+        var subtitle = new Label { Text = "Control de asistencia · iClock 680 · CSV", AutoSize = true, Location = new Point(38, 78), ForeColor = Color.DimGray };
         var monthStart = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
-        var monthLabel = new Label { Text = $"Periodo del reporte: {monthStart.ToString("MMMM yyyy", CultureInfo.GetCultureInfo("es-ES"))} (del {monthStart:dd/MM} al {DateTime.Today:dd/MM})", AutoSize = true, Location = new Point(34, 120), ForeColor = Color.FromArgb(70, 80, 95) };
-        var report = MakeButton("Hacer Reporte", Color.FromArgb(35, 91, 151));
-        report.Location = new Point(30, 165); report.Width = 330; report.Height = 52;
+        var monthLabel = new Label { Text = $"Periodo: {monthStart.ToString("MMMM yyyy", CultureInfo.GetCultureInfo("es-ES"))} · {monthStart:dd/MM}–{DateTime.Today:dd/MM}", AutoSize = true, Location = new Point(38, 112), ForeColor = Color.FromArgb(70, 80, 95) };
+        var menu = new FlowLayoutPanel { Location = new Point(38, 150), Width = 424, Height = 300, FlowDirection = FlowDirection.TopDown, WrapContents = false, AutoScroll = false };
+        var report = MakeButton("Hacer Reporte", Color.FromArgb(35, 91, 151)); report.Width = 424; report.Height = 46;
         report.Click += async (_, _) =>
         {
-            settings.ReportFrom = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1); settings.ReportTo = DateTime.Today; SettingsStore.Save(settings);
+            var earliest = CsvStore.EarliestPunchDate(settings) ?? DateTime.Today; settings.ReportFrom = new DateTime(earliest.Year, earliest.Month, 1); settings.ReportTo = DateTime.Today; SettingsStore.Save(settings);
             try
             {
                 var reportDocument = await Task.Run(() => ReportService.Build(settings));
@@ -49,29 +50,20 @@ internal sealed class MainForm : Form
             }
             catch (Exception ex) { MessageBox.Show(this, ex.Message, "No se pudo generar el reporte", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         };
-        var users = MakeButton("Configuración por usuario", Color.FromArgb(116, 91, 145));
-        users.Location = new Point(30, 235); users.Width = 330; users.Height = 48;
-        users.Click += (_, _) => OpenConfigured(() => new UserScheduleForm(settings));
-        var day = MakeButton("Configuración del día", Color.FromArgb(160, 112, 55));
-        day.Location = new Point(30, 295); day.Width = 330; day.Height = 48;
+        var day = MakeButton("Justificaciones/Faltas", Color.FromArgb(160, 112, 55)); day.Width = 424; day.Height = 46;
         day.Click += (_, _) => OpenConfigured(() => new DailyIncidentForm(settings));
-        var parameters = MakeButton("Parámetros de sincronización", Color.FromArgb(80, 145, 112));
-        parameters.Location = new Point(30, 355); parameters.Width = 330; parameters.Height = 48;
-        parameters.Click += (_, _) => ShowReportParameters();
-        var config = MakeButton("Configuración del programa", Color.FromArgb(80, 112, 145));
-        config.Location = new Point(30, 425); config.Width = 330; config.Height = 48;
-        config.Click += (_, _) => ShowSystemConfiguration();
-        var customize = MakeButton("Personalización y mantenimiento", Color.FromArgb(105, 82, 130));
-        customize.Location = new Point(380, 425); customize.Width = 300; customize.Height = 48;
+        var customize = MakeButton("Personalización y mantenimiento", Color.FromArgb(105, 82, 130)); customize.Width = 424; customize.Height = 46;
         customize.Click += (_, _) => OpenConfigured(() => new CustomizationForm(settings));
-        status.Location = new Point(34, 500);
+        var config = MakeButton("Configuración del programa", Color.FromArgb(80, 112, 145)); config.Width = 424; config.Height = 46; config.Click += (_, _) => ShowSystemConfiguration();
+        menu.Controls.AddRange(new Control[] { report, day, customize, config });
+        status.Location = new Point(38, 475);
         status.Text = settings.IsConfigured ? "Sistema configurado." : "Configure el sistema para habilitar la sincronización automática.";
-        content.Controls.AddRange(new Control[] { title, subtitle, monthLabel, report, users, day, parameters, config, customize, status });
+        card.Controls.AddRange(new Control[] { title, subtitle, monthLabel, menu, status }); content.Controls.Add(card);
     }
 
     void OpenConfigured(Func<Form> create)
     {
-        if (!settings.IsConfigured) { MessageBox.Show(this, "Primero configure el dispositivo y la carpeta CSV en Configuración del sistema.", "Configuración requerida", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
+        if (!settings.IsConfigured) { MessageBox.Show(this, "Primero configure el dispositivo y la carpeta CSV en Configuración del programa.", "Configuración requerida", MessageBoxButtons.OK, MessageBoxIcon.Information); return; }
         try { using var form = create(); form.ShowDialog(this); }
         catch (Exception ex) { MessageBox.Show(this, ex.Message, "No se pudo abrir la configuración", MessageBoxButtons.OK, MessageBoxIcon.Error); }
     }
@@ -79,15 +71,16 @@ internal sealed class MainForm : Form
     void ShowSystemConfiguration()
     {
         content.Controls.Clear();
-        var title = PageTitle("Configuración del sistema");
+        var title = PageTitle("Configuración del programa");
         var fields = NewFields();
         var ip = new TextBox { Text = settings.DeviceIp, Width = 220 };
         var port = new NumericUpDown { Minimum = 1, Maximum = 65535, Value = settings.DevicePort, Width = 220 };
-        var folder = new TextBox { Text = settings.CsvFolder, Width = 220 };
+        var folder = new TextBox { Text = settings.CsvFolder, Width = 220 }; var folderPicker = new FlowLayoutPanel { AutoSize = true, WrapContents = false }; var browse = MakeButton("Examinar", Color.FromArgb(105, 105, 105)); browse.Width = 100; browse.Height = 30; browse.Click += (_, _) => { using var dialog = new FolderBrowserDialog { SelectedPath = Directory.Exists(folder.Text) ? folder.Text : Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), Description = "Seleccione dónde guardar los archivos CSV" }; if (dialog.ShowDialog(this) == DialogResult.OK) folder.Text = dialog.SelectedPath; }; folderPicker.Controls.Add(folder); folderPicker.Controls.Add(browse);
         var setClock = new CheckBox { Text = "Sincronizar fecha y hora con este PC", AutoSize = true, Checked = settings.SyncClock };
-        AddField(fields, "IP del dispositivo", ip); AddField(fields, "Puerto", port); AddField(fields, "Carpeta CSV", folder); AddField(fields, "Fecha y hora", setClock);
+        AddField(fields, "IP del dispositivo", ip); AddField(fields, "Puerto", port); AddField(fields, "Carpeta CSV", folderPicker); AddField(fields, "Fecha y hora", setClock);
         var accept = MakeButton("Aceptar y validar", Color.FromArgb(35, 91, 151)); accept.Location = new Point(30, 415); accept.Width = 220; accept.Height = 42;
         var back = MakeButton("Volver", Color.Gray); back.Location = new Point(270, 415); back.Width = 120; back.Height = 42;
+        var sync = MakeButton("Sincronizar ahora", Color.FromArgb(80, 145, 112)); sync.Location = new Point(30, 475); sync.Width = 220; sync.Height = 42;
         accept.Click += (_, _) =>
         {
             try
@@ -102,27 +95,9 @@ internal sealed class MainForm : Form
             }
             catch (Exception ex) { MessageBox.Show(this, ex.Message, "No se pudo validar", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         };
+        sync.Click += async (_, _) => { await SynchronizeAutomatically(); MessageBox.Show(this, status.Text, "Sincronización", MessageBoxButtons.OK, status.Text.StartsWith("Sincronización CSV correcta", StringComparison.OrdinalIgnoreCase) ? MessageBoxIcon.Information : MessageBoxIcon.Error); };
         back.Click += (_, _) => ShowHome();
-        content.Controls.AddRange(new Control[] { title, fields, accept, back });
-    }
-
-    void ShowReportParameters()
-    {
-        content.Controls.Clear();
-        var title = PageTitle("Parámetros de sincronización y reporte");
-        var fields = NewFields();
-        var entry = new DateTimePicker { Format = DateTimePickerFormat.Custom, CustomFormat = "HH:mm", ShowUpDown = true, Width = 220, Value = DateTime.Today.Add(settings.EntryTime) };
-        var exit = new DateTimePicker { Format = DateTimePickerFormat.Custom, CustomFormat = "HH:mm", ShowUpDown = true, Width = 220, Value = DateTime.Today.Add(settings.ExitTime) };
-        AddField(fields, "Hora de ingreso", entry); AddField(fields, "Hora de salida", exit);
-        var save = MakeButton("Guardar parámetros", Color.FromArgb(80, 112, 145)); save.Location = new Point(30, 190); save.Width = 220; save.Height = 42;
-        var back = MakeButton("Volver", Color.Gray); back.Location = new Point(270, 190); back.Width = 120; back.Height = 42;
-        save.Click += async (_, _) =>
-        {
-            settings.EntryTime = entry.Value.TimeOfDay; settings.ExitTime = exit.Value.TimeOfDay; SettingsStore.Save(settings);
-            await SynchronizeAutomatically(); ShowHome();
-        };
-        back.Click += (_, _) => ShowHome();
-        content.Controls.AddRange(new Control[] { title, fields, save, back });
+        content.Controls.AddRange(new Control[] { title, fields, accept, back, sync });
     }
 
     async Task SynchronizeAutomatically()
